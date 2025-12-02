@@ -5,17 +5,19 @@
 		"colonyTagCriteria" : {
 			"sergal" : 8
 		},
-		"guardColonyTagCriteria" : [ // merges over colonyTagCriteria for the tier
-			{},
-			{"tier2":12},
-			{"tier3":12},
-			{"tier4":12},
-			{"tier5":12},
-			{"tier6":12},
-			{"tier7":12},
-			{"tier8":12},
-			{"tier9":12},
-			{"tier10":12}
+		"guardColonyTagCriteria" : [ // merges over colonyTagCriteria for the tier of guard
+		// in vanilla there is only tiers 1-4 of guard, but since many mods extend the tiers
+		// it is good to define them anyway even if they might not be obtainable
+			{"combat":8},
+			{"combat":8,"tier2":12},
+			{"combat":8,"tier3":12},
+			{"combat":8,"tier4":12},
+			{"combat":8,"tier5":12},
+			{"combat":8,"tier6":12},
+			{"combat":8,"tier7":12},
+			{"combat":8,"tier8":12},
+			{"combat":8,"tier9":12},
+			{"combat":8,"tier10":12}
 		],
 		"tenant" : {
 			"spawn": "npc", "species": "sergal", "type": "sbqVoreTenant", "overrides": {},
@@ -34,16 +36,16 @@
 			]
 		},
 		"guardTenant" : [ // merges on top of the base tenant
-			{"spawn": "npc", "level": 1, "species": "sergal", "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
-			{"spawn": "npc", "level": 2, "species": "sergal", "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
-			{"spawn": "npc", "level": 3, "species": "sergal", "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
-			{"spawn": "npc", "level": 4, "species": "sergal", "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
-			{"spawn": "npc", "level": 5, "species": "sergal", "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
-			{"spawn": "npc", "level": 6, "species": "sergal", "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
-			{"spawn": "npc", "level": 7, "species": "sergal", "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
-			{"spawn": "npc", "level": 8, "species": "sergal", "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
-			{"spawn": "npc", "level": 9, "species": "sergal", "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
-			{"spawn": "npc", "level": 10, "species": "sergal", "type": "sbqVoreFriendlyGuardTenant", "overrides": {}}
+			{"level": 1, "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
+			{"level": 2, "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
+			{"level": 3, "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
+			{"level": 4, "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
+			{"level": 5, "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
+			{"level": 6, "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
+			{"level": 7, "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
+			{"level": 8, "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
+			{"level": 9, "type": "sbqVoreFriendlyGuardTenant", "overrides": {}},
+			{"level": 10, "type": "sbqVoreFriendlyGuardTenant", "overrides": {}}
 		]
 	},
 	"baseColorPalette": {

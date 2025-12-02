@@ -6,17 +6,19 @@
 			"unscorched" : 8,
 			"human" : 4
 		},
-		"guardColonyTagCriteria" : [ // merges over colonyTagCriteria for the tier
-			{},
-			{"tier2":12},
-			{"tier3":12},
-			{"tier4":12},
-			{"tier5":12},
-			{"tier6":12},
-			{"tier7":12},
-			{"tier8":12},
-			{"tier9":12},
-			{"tier10":12}
+		"guardColonyTagCriteria" : [ // merges over colonyTagCriteria for the tier of guard
+		// in vanilla there is only tiers 1-4 of guard, but since many mods extend the tiers
+		// it is good to define them anyway even if they might not be obtainable
+			{"combat":8},
+			{"combat":8,"tier2":12},
+			{"combat":8,"tier3":12},
+			{"combat":8,"tier4":12},
+			{"combat":8,"tier5":12},
+			{"combat":8,"tier6":12},
+			{"combat":8,"tier7":12},
+			{"combat":8,"tier8":12},
+			{"combat":8,"tier9":12},
+			{"combat":8,"tier10":12}
 		],
 		"tenant" : {
 			"spawn": "npc", "species": "wr/absol", "type": "sbqVoreTenant", "overrides": {},
