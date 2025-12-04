@@ -135,6 +135,20 @@
 			]
 		},
 
+		"sbq/nickit_tail.png" : {
+			"sourcePalette" : "/humanoid/any/sbqModules/nickit_tail/palette.config",
+			"sourceImage" : "/humanoid/any/sbqModules/nickit_tail/nickit_tail.png",
+			"remapDirectives": [
+				[
+					"primary",
+					"secondary"
+				],
+				[
+					"secondary",
+					"paws"
+				]
+			]
+		},
 		"sbq/infused/nickit_tail.png" : {
 			"sourcePalette" : "/humanoid/any/sbqModules/nickit_tail/palette.config",
 			"sourceImage" : "/humanoid/any/sbqModules/nickit_tail/nickit_tail.png",
@@ -145,10 +159,20 @@
 				],
 				[
 					"secondary",
-					"secondary"
+					"paws"
 				]
 			]
 
+		},
+		"sbq/flareon_tail.png" : {
+			"sourcePalette" : "/species/wr/flareon.species:baseColorPalette",
+			"sourceImage" : "/humanoid/wr/flareon/tail.png",
+			"remapDirectives": [
+				[
+					"secondary",
+					"secondary"
+				]
+			]
 		},
 		"sbq/infused/flareon_tail.png" : {
 			"sourcePalette" : "/species/wr/flareon.species:baseColorPalette",
@@ -156,7 +180,25 @@
 			"remapDirectives": [
 				[
 					"secondary",
+					"secondary"
+				]
+			]
+		},
+		"sbq/vaporeon_tail.png" : {
+			"sourcePalette" : "/species/wr/vaporeon.species:baseColorPalette",
+			"sourceImage" : "/humanoid/wr/vaporeon/tail.png",
+			"remapDirectives": [
+				[
+					"primary",
 					"primary"
+				],
+				[
+					"secondary",
+					"secondary"
+				],
+				[
+					"tertiary",
+					"tertiary"
 				]
 			]
 		},
@@ -178,13 +220,24 @@
 				]
 			]
 		},
+
+		"sbq/luxio_tail.png" : {
+			"sourcePalette" : "/species/wr/luxio.species:baseColorPalette",
+			"sourceImage" : "/humanoid/wr/luxio/tail.png",
+			"remapDirectives": [
+				[
+					"secondary",
+					"secondary"
+				]
+			]
+		},
 		"sbq/infused/luxio_tail.png" : {
 			"sourcePalette" : "/species/wr/luxio.species:baseColorPalette",
 			"sourceImage" : "/humanoid/wr/luxio/tail.png",
 			"remapDirectives": [
 				[
 					"secondary",
-					"primary"
+					"secondary"
 				]
 			]
 		},
@@ -225,7 +278,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"tertiary"
 				]
 			]
 		},
@@ -235,7 +288,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"tertiary"
 				]
 			]
 		},
@@ -245,7 +298,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"tertiary"
 				]
 			]
 		},
@@ -263,7 +316,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"secondary"
+					"primary"
 				]
 			]
 		},
@@ -281,7 +334,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"secondary"
 				]
 			]
 		},
@@ -299,7 +352,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"secondary"
 				]
 			]
 		},
