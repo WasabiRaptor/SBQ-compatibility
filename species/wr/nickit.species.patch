@@ -148,33 +148,10 @@
 		},
 
 		"sbq/nickit_tail.png" : {
-			"sourcePalette" : "/humanoid/any/sbqModules/nickit_tail/palette.config",
-			"sourceImage" : "/humanoid/any/sbqModules/nickit_tail/nickit_tail.png",
-			"remapDirectives": [
-				[
-					"primary",
-					"secondary"
-				],
-				[
-					"secondary",
-					"secondary"
-				]
-			]
+			"sourceImage" : "/humanoid/any/sbqModules/nickit_tail/nickit_tail.png"
 		},
 		"sbq/infused/nickit_tail.png" : {
-			"sourcePalette" : "/humanoid/any/sbqModules/nickit_tail/palette.config",
-			"sourceImage" : "/humanoid/any/sbqModules/nickit_tail/nickit_tail.png",
-			"remapDirectives": [
-				[
-					"primary",
-					"primary"
-				],
-				[
-					"secondary",
-					"secondary"
-				]
-			]
-
+			"sourceImage" : "/humanoid/any/sbqModules/nickit_tail/nickit_tail.png"
 		},
 		"sbq/flareon_tail.png" : {
 			"sourcePalette" : "/species/wr/flareon.species:baseColorPalette",
