@@ -63,7 +63,7 @@
 				],
 				[
 					"secondary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -76,7 +76,7 @@
 				],
 				[
 					"secondary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -89,7 +89,7 @@
 				],
 				[
 					"secondary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -102,7 +102,7 @@
 				],
 				[
 					"secondary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -115,7 +115,7 @@
 				],
 				[
 					"secondary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -128,7 +128,7 @@
 				],
 				[
 					"secondary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -182,7 +182,7 @@
 				],
 				[
 					"tertiary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -200,7 +200,7 @@
 				],
 				[
 					"tertiary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -232,7 +232,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -242,7 +242,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -252,7 +252,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -262,7 +262,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -272,7 +272,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -282,7 +282,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -309,7 +309,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -327,7 +327,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -363,7 +363,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				],
 				[
 					"primary_180",
@@ -380,7 +380,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				],
 				[
 					"primary_180",
@@ -429,7 +429,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				],
 				[
 					"primary_180",
@@ -437,7 +437,7 @@
 				],
 				[
 					"flesh",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
@@ -446,7 +446,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"tertiary"
+					"belly"
 				],
 				[
 					"primary_180",
@@ -454,7 +454,7 @@
 				],
 				[
 					"flesh",
-					"tertiary"
+					"belly"
 				]
 			]
 		},
