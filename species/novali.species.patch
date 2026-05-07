@@ -337,6 +337,18 @@
 		"sbq/infused/belly_noNavel.png": {
 			"sourceImage": "/humanoid/novakid/sbq/belly.png"
 		},
+		"sbq/belly_tight.png" : {
+			"sourceImage" : "/humanoid/novakid/sbq/belly_tight.png"
+		},
+		"sbq/belly_tight_noNavel.png" : {
+			"sourceImage" : "/humanoid/novakid/sbq/belly_tight.png"
+		},
+		"sbq/infused/belly_tight.png" : {
+			"sourceImage" : "/humanoid/novakid/sbq/belly_tight.png"
+		},
+		"sbq/infused/belly_tight_noNavel.png" : {
+			"sourceImage" : "/humanoid/novakid/sbq/belly_tight.png"
+		},
 		"sbq/cock.png": {
 			"sourceImage": "/humanoid/any/sbqModules/cock/default.png",
 			"remapDirectives": [

@@ -305,6 +305,18 @@
 		"sbq/infused/belly_noNavel.png": {
 			"sourceImage": "sbq/belly.png"
 		},
+		"sbq/belly_tight.png" : {
+			"sourceImage" : "sbq/belly_tight.png"
+		},
+		"sbq/belly_tight_noNavel.png" : {
+			"sourceImage" : "sbq/belly_tight.png"
+		},
+		"sbq/infused/belly_tight.png" : {
+			"sourceImage" : "sbq/belly_tight.png"
+		},
+		"sbq/infused/belly_tight_noNavel.png" : {
+			"sourceImage" : "sbq/belly_tight.png"
+		},
 		"sbq/cock.png": {
 			"sourceImage": "/humanoid/any/sbqModules/cock/default.png",
 			"remapDirectives": [
