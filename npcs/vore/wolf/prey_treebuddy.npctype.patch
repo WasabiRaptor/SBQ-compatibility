@@ -1,0 +1,11 @@
+{
+	"scriptConfig" : {
+		"sbqSettingsConfig" : {
+			"includes" : [
+				"/species/sbq/disableAllVorePred.config",
+				"/species/sbq/disableAllTF.config",
+				"/species/sbq/disableAllSize.config"
+			]
+		}
+	}
+}
