@@ -468,7 +468,7 @@
 				], // this is the part of the breasts sprite that covers the shoulder
 				[
 					"flesh",
-					"flesh"
+					"primary"
 				] // we want the nipples to be the base color  to remove them
 			]
 		},
@@ -485,7 +485,7 @@
 				], // this is the part of the breasts sprite that covers the shoulder
 				[
 					"flesh",
-					"flesh"
+					"primary"
 				] // we want the nipples to be the base color  to remove them
 			]
 		},
@@ -501,7 +501,7 @@
 				], // this is the part of the breasts sprite that covers the shoulder, we want to remove this color for infusion layer
 				[
 					"flesh",
-					"flesh"
+					"primary"
 				] // we want the nipples to be the base color  to remove them
 			]
 		},
@@ -517,7 +517,7 @@
 				], // this is the part of the breasts sprite that covers the shoulder, we want to remove this color for infusion layer
 				[
 					"flesh",
-					"flesh"
+					"primary"
 				] // we want the nipples to be the base color  to remove them
 			]
 		}

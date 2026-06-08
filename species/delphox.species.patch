@@ -45,7 +45,7 @@
 	},
 	"baseColorPalette": {
 		"primary": [
-			"d39c6c",
+			"ad7d53",
 			"d39c6c",
 			"ffc181"
 		],
@@ -503,7 +503,7 @@
 				],
 				[
 					"flesh",
-					"secondary"
+					"primary"
 				]
 			]
 		},
@@ -520,7 +520,7 @@
 				],
 				[
 					"flesh",
-					"secondary"
+					"primary"
 				]
 			]
 		},
@@ -536,7 +536,7 @@
 				],
 				[
 					"flesh",
-					"secondary"
+					"primary"
 				]
 			]
 		},
@@ -552,7 +552,7 @@
 				],
 				[
 					"flesh",
-					"secondary"
+					"primary"
 				]
 			]
 		}
