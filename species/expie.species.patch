@@ -126,14 +126,14 @@
 			"sourceImage" : "malebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/removeTail_male.png;0;0;"
+			"processingDirectives" : "?addmask=/humanoid/expie/sbq/removeTailMask_male.png;0;0;"
 		},
 		"sbq/femalebody.png" : {// the species' main body with the tail removed
 		// used whenever using SBQ's tail animations
 			"sourceImage" : "femalebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/removeTail_female.png;0;0;"
+			"processingDirectives" : "?addmask=/humanoid/expie/sbq/removeTailMask_female.png;0;0;"
 		},
 		"sbq/fg/malebody.png" : {// the foreground leg of the species isolated into its own image
 		// used to layer in front of the cock during walk/run animation
