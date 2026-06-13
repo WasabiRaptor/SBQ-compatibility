@@ -104,7 +104,7 @@
 			"sourceImage" : "malebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/noLegs_male.png;0;0;",
+			"processingDirectives" : "?addmask=/humanoid/slugcat/sbq/noLegs_male.png;0;0;",
 			// SBQ uses this image patch script to copy the crotch into areas that would have
 			// been covered by the legs and therefore got removed when the legs were
 			// this script might not work if the species has modified the frame layout of the image
@@ -115,7 +115,7 @@
 			"sourceImage" : "femalebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/noLegs_female.png;0;0;",
+			"processingDirectives" : "?addmask=/humanoid/slugcat/sbq/noLegs_female.png;0;0;",
 			// SBQ uses this image patch script to copy the crotch into areas that would have
 			// been covered by the legs and therefore got removed when the legs were
 			// this script might not work if the species has modified the frame layout of the image
