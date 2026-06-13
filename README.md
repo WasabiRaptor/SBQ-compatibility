@@ -82,5 +82,5 @@ This mod includes patches for the species below to add compatibility, it should 
 - [Space Skunks](https://steamcommunity.com/sharedfiles/filedetails/?id=3423728930) : skumks
 - [Renamon](https://steamcommunity.com/sharedfiles/filedetails/?id=3358528427) : renamonlk
 - [Slugcats](https://steamcommunity.com/sharedfiles/filedetails/?id=3476569686) : slugcat
-- [Lyru](https://steamcommunity.com/sharedfiles/filedetails/?id=1528780956) : Lyru
+- [Lyru](https://steamcommunity.com/sharedfiles/filedetails/?id=1528780956) : lyru
 - [Expie](https://steamcommunity.com/sharedfiles/filedetails/?id=3740344040) : expie
