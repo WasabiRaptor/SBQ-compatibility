@@ -2,10 +2,10 @@
 	"sbqCompatible" : true, // marks this species as compatible with SBQ
 	"sbqTFAny" : true, // maeks this species
 	"sbqHubNPCs" : [ // list of NPCs that can spawn in the SBQ hub world
-		{"level": 1, "species": "slugcat", "type": "sbqVoreVillager", "overrides": {}}
+		{"level": 1, "species": "lyru", "type": "sbqVoreVillager", "overrides": {}}
 	],
 	"sbqHubMicroNPCs" : [ // list of NPCs that can spawn in the SBQ hub world's micro dome
-		{"level": 1, "species": "slugcat", "type": "sbqVoreVillager", "overrides": {}}
+		{"level": 1, "species": "lyru", "type": "sbqVoreVillager", "overrides": {}}
 	],
 	"sbqTenantData" : { // data for NPC tenants
 		"colonyTagCriteria" : {// the colony tags this species wants
@@ -28,7 +28,7 @@
 			{"combat":8,"tier10":12}
 		],
 		"tenant" : { // the NPC villager tenant you get when summoned by a deed
-			"spawn": "npc", "species": "slugcat", "type": "sbqVoreTenant", "overrides": {},
+			"spawn": "npc", "species": "lyru", "type": "sbqVoreTenant", "overrides": {},
 			"orderFurniture" : [ // list of objects you can buy within the SBQ deed
 			// you should replace these with objects that have the requisite colony tags
 			// defined up above, or with objects that are fitting for the species
@@ -96,7 +96,7 @@
 	},
 	// the vore animation images this species will generate when the mod loads
 	// if one wanted to, one could also create species specific ones and place them within
-	// the `humanoid/slugcat` folder at the path of the images here, but that would also
+	// the `humanoid/lyru` folder at the path of the images here, but that would also
 	// mean the images won't be updated whenever the ones in base SBQ are, so that's up to you
 	"sbqPartImages": {
 		"sbq/noLegs/malebody.png" : { // the species' main body with the legs removed
@@ -104,7 +104,7 @@
 			"sourceImage" : "malebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/slugcat/sbq/noLegs_male.png;0;0;",
+			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/noLegs_male.png;0;0;",
 			// SBQ uses this image patch script to copy the crotch into areas that would have
 			// been covered by the legs and therefore got removed when the legs were
 			// this script might not work if the species has modified the frame layout of the image
@@ -115,7 +115,7 @@
 			"sourceImage" : "femalebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/slugcat/sbq/noLegs_female.png;0;0;",
+			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/noLegs_female.png;0;0;",
 			// SBQ uses this image patch script to copy the crotch into areas that would have
 			// been covered by the legs and therefore got removed when the legs were
 			// this script might not work if the species has modified the frame layout of the image
@@ -140,14 +140,14 @@
 			"sourceImage" : "malebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/legMask.png;0;0;"
+			"processingDirectives" : "?addmask=/humanoid/lyru/sbq/legMask.png;0;0;"
 		},
 		"sbq/fg/femalebody.png" : {// the foreground leg of the species isolated into its own image
 		// used to layer in front of the cock during walk/run animation
 			"sourceImage" : "femalebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/legMask.png;0;0;"
+			"processingDirectives" : "?addmask=/humanoid/lyru/sbq/legMask.png;0;0;"
 		},
 
 		// the following images are ones that need to have their colors replaced to match the species
@@ -438,7 +438,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"tertiary"
 				]
 			]
 		},
@@ -456,7 +456,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"tertiary"
 				]
 			]
 		},

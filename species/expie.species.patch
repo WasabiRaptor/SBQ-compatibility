@@ -2,10 +2,10 @@
 	"sbqCompatible" : true, // marks this species as compatible with SBQ
 	"sbqTFAny" : true, // maeks this species
 	"sbqHubNPCs" : [ // list of NPCs that can spawn in the SBQ hub world
-		{"level": 1, "species": "slugcat", "type": "sbqVoreVillager", "overrides": {}}
+		{"level": 1, "species": "expie", "type": "sbqVoreVillager", "overrides": {}}
 	],
 	"sbqHubMicroNPCs" : [ // list of NPCs that can spawn in the SBQ hub world's micro dome
-		{"level": 1, "species": "slugcat", "type": "sbqVoreVillager", "overrides": {}}
+		{"level": 1, "species": "expie", "type": "sbqVoreVillager", "overrides": {}}
 	],
 	"sbqTenantData" : { // data for NPC tenants
 		"colonyTagCriteria" : {// the colony tags this species wants
@@ -28,7 +28,7 @@
 			{"combat":8,"tier10":12}
 		],
 		"tenant" : { // the NPC villager tenant you get when summoned by a deed
-			"spawn": "npc", "species": "slugcat", "type": "sbqVoreTenant", "overrides": {},
+			"spawn": "npc", "species": "expie", "type": "sbqVoreTenant", "overrides": {},
 			"orderFurniture" : [ // list of objects you can buy within the SBQ deed
 			// you should replace these with objects that have the requisite colony tags
 			// defined up above, or with objects that are fitting for the species
@@ -83,7 +83,7 @@
 	// colors are hex codes, list them in order of darkest to lightest
 	// you will always need at least three for the colors to work nicely, the fourth is
 	// simply the highlight color and is optional as not every species has a highlight
-		"primary": ["6f2919","a85636","e0975c","ffca8a"],
+		"primary": ["c7815b","d39c6c","ffc181","ffe2c5"],
 		"secondary": ["951500","be1b00","dc1f00","f32200"],
 		// primary and secondary must be defined for how SBQ's digest drops work
 		// any other colors can be named however you wish
@@ -96,7 +96,7 @@
 	},
 	// the vore animation images this species will generate when the mod loads
 	// if one wanted to, one could also create species specific ones and place them within
-	// the `humanoid/slugcat` folder at the path of the images here, but that would also
+	// the `humanoid/expie` folder at the path of the images here, but that would also
 	// mean the images won't be updated whenever the ones in base SBQ are, so that's up to you
 	"sbqPartImages": {
 		"sbq/noLegs/malebody.png" : { // the species' main body with the legs removed
@@ -104,7 +104,7 @@
 			"sourceImage" : "malebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/slugcat/sbq/noLegs_male.png;0;0;",
+			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/noLegs_male.png;0;0;",
 			// SBQ uses this image patch script to copy the crotch into areas that would have
 			// been covered by the legs and therefore got removed when the legs were
 			// this script might not work if the species has modified the frame layout of the image
@@ -115,7 +115,7 @@
 			"sourceImage" : "femalebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/slugcat/sbq/noLegs_female.png;0;0;",
+			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/noLegs_female.png;0;0;",
 			// SBQ uses this image patch script to copy the crotch into areas that would have
 			// been covered by the legs and therefore got removed when the legs were
 			// this script might not work if the species has modified the frame layout of the image
@@ -126,14 +126,14 @@
 			"sourceImage" : "malebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/removeTail_male.png;0;0;"
+			"processingDirectives" : "?addmask=/humanoid/expie/sbq/removeTailMask_male.png;0;0;"
 		},
 		"sbq/femalebody.png" : {// the species' main body with the tail removed
 		// used whenever using SBQ's tail animations
 			"sourceImage" : "femalebody.png",
 			// if the mask from base SBQ assests doesn't work well, create your own mask
 			// and put its path down below in the processingDirectives
-			"processingDirectives" : "?addmask=/humanoid/any/sbqImageMasks/removeTail_female.png;0;0;"
+			"processingDirectives" : "?addmask=/humanoid/expie/sbq/removeTailMask_female.png;0;0;"
 		},
 		"sbq/fg/malebody.png" : {// the foreground leg of the species isolated into its own image
 		// used to layer in front of the cock during walk/run animation
@@ -401,7 +401,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"secondary"
 				]
 			]
 		},
@@ -411,7 +411,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"secondary"
 				]
 			]
 		},
@@ -447,7 +447,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"flesh"
 				]
 			]
 		},
@@ -465,7 +465,7 @@
 			"remapDirectives": [
 				[
 					"primary",
-					"primary"
+					"flesh"
 				]
 			]
 		},
@@ -533,7 +533,7 @@
 				],
 				[
 					"primary",
-					"primary"
+					"secondary"
 				],
 				[
 					"flesh", // nipples
@@ -551,7 +551,7 @@
 				],
 				[
 					"primary",
-					"primary"
+					"secondary"
 				],
 				[
 					"flesh", // nipples
@@ -573,7 +573,7 @@
 				],
 				[
 					"flesh", // nipples
-					"primary" // for no nipples this should be the same as what primary was set to
+					"secondary" // for no nipples this should be the same as what primary was set to
 				]
 			]
 		},
@@ -591,7 +591,7 @@
 				],
 				[
 					"flesh", // nipples
-					"primary" // for no nipples this should be the same as what primary was set to
+					"secondary" // for no nipples this should be the same as what primary was set to
 				]
 			]
 		},
@@ -605,11 +605,11 @@
 				],
 				[
 					"primary",
-					"primary"
+					"secondary"
 				],
 				[
 					"flesh", // nipples
-					"primary" // for no nipples this should be the same as what primary was set to
+					"secondary" // for no nipples this should be the same as what primary was set to
 				]
 			]
 		},
@@ -623,11 +623,11 @@
 				],
 				[
 					"primary",
-					"primary"
+					"secondary"
 				],
 				[
 					"flesh", // nipples
-					"primary" // for no nipples this should be the same as what primary was set to
+					"secondary" // for no nipples this should be the same as what primary was set to
 				]
 			]
 		}
