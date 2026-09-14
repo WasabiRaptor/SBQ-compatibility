@@ -21,7 +21,7 @@
 			{"combat":8,"tier10":12}
 		],
 		"tenant" : {
-			"spawn": "npc", "species": "wr/nickit", "type": "sbqVoreTenant", "overrides": {},
+			"spawn": "npc", "species": "wr/nickit_anthro", "type": "sbqVoreTenant", "overrides": {},
 			"orderFurniture" : [
 				{"name":"carbed", "count":1},
 				{"name":"jukebox", "count":1},
